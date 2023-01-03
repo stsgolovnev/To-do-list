@@ -1,4 +1,4 @@
-<a href="{% url 'tasks' %}"></a>
+<a href="{% url 'tasks' %}">Go back to Tasks</a>
 <form method="post">
     {% csrf_token %}
     <p>Are you sure you wnat do delete this Task? "{{task}}"</p>
