@@ -8,6 +8,7 @@ from django.urls import reverse_lazy
 # Фунции пользователя (мб перенести в отдельное приложение?)
 from django.contrib.auth.views import LoginView
 
+
 from .models import Task
 
 class MyLoginView(LoginView):
